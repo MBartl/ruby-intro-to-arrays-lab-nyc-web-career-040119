@@ -20,11 +20,11 @@ def last_element(flatironIsAwesome)
 end
 
 def first_element_with_array_methods(deskjobs)
-  firstelement = deskjobs.shift()
+  deskjobs.shift()
 end
 
 def last_element_with_array_methods(cats)
-  lastelement = cats.pop()
+  cats.pop()
 end
 
 def length_of_array(silly)
